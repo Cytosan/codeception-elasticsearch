@@ -1,5 +1,5 @@
 {
-    "name": "tadaspaplauskas/codeception-elasticsearch",
+    "name": "cytosan/codeception-elasticsearch",
     "description": "Elastic Search Module for Codeception",
     "license": "MIT",
     "authors": [
@@ -9,10 +9,13 @@
         },
         {
             "name": "Tadas Paplauskas"
+        },
+        {
+            "name": "Cytosan"
         }
     ],
     "require": {
-        "elasticsearch/elasticsearch": "dev-master"
+        "elasticsearch/elasticsearch": "6.2"
     },
     "autoload": {
         "psr-4": {
